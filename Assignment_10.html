@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume - Swati Patil</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #edf4f2, #f7fbf9);
+      color: #2e3d34;
+    }
+
+    .resume {
+      max-width: 950px;
+      margin: 40px auto;
+      background: #ffffff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .top-section {
+      display: flex;
+      background: linear-gradient(to right, #bfe2cf, #d2f2e4);
+      padding: 40px;
+      align-items: center;
+      border-bottom: 4px solid #a3c4a8;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffffff;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .info {
+      margin-left: 30px;
+      flex: 1;
+    }
+
+    .info h1 {
+      margin: 0;
+      font-size: 38px;
+      color: #1f3c2d;
+    }
+
+    .info h3 {
+      margin: 10px 0;
+      font-weight: normal;
+      color: #497a61;
+    }
+
+    .info p {
+      margin-top: 15px;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .section {
+      padding: 15px;
+      border-top: 1px solid #e0eae2;
+    }
+
+    .section h2 {
+      color: #2d4c3c;
+      border-bottom: 2px solid #b4d3b5;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+    .section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .section li {
+      margin-bottom: 12px;
+      font-size: 15.5px;
+      line-height: 1.6;
+    }
+
+    .skills li {
+      margin-bottom: 20px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #4b6653;
+    }
+
+    .skill-bar {
+      background-color: #e0eae2;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-top: 5px;
+    }
+
+    .skill-bar-fill {
+      height: 12px;
+      background: linear-gradient(to right, #84c4a1, #4da78c);
+      width: 0;
+      transition: width 1s ease-in-out;
+    }
+
+    .skills li:hover .skill-bar-fill {
+      width: 100%;
+    }
+
+    .contact-info {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+    .contact-info li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-info a {
+      color: #3e5b4c;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .contact-info a:hover {
+      color: #4c9b7c;
+    }
+
+    .contact-info i {
+      color: #4c9b7c;
+      margin-right: 8px;
+      width: 20px;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 700px) {
+      .top-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .info {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <div class="top-section">
+      <img src="swati.jpg.jpg" alt="Swati Patil" class="profile-pic">
+      <div class="info">
+        <h1>Swati Patil</h1>
+        <h3>B.Tech in Computer Science | 2nd Year</h3>
+        <p>
+          Energetic and detail-oriented Computer Science undergraduate passionate about coding, solving complex problems, and creating intuitive user experiences. Eager to collaborate and build impactful solutions.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Tech in Computer Science</strong>, D. Y. Patil College of Engineering and Technology, Kasba-Bawda, Kolhapur (2023 - 2027)</li>
+        <li>Relevant Courses: Data Structures, Algorithms, Web Development</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <ul class="skills">
+        <li>Java<div class="skill-bar"><div class="skill-bar-fill" style="width: 80%;"></div></div></li>
+        <li>C++<div class="skill-bar"><div class="skill-bar-fill" style="width: 90%;"></div></div></li>
+        <li>HTML, CSS, JavaScript<div class="skill-bar"><div class="skill-bar-fill" style="width: 80%;"></div></div></li>
+        <li>Flutter<div class="skill-bar"><div class="skill-bar-fill" style="width: 60%;"></div></div></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>To-Do List Web App</strong><br>Designed a dynamic and responsive task manager using HTML/CSS/JS with interactive UI and local storage integration.</li>
+        <li><strong>Weather App</strong><br>Developed a weather forecasting app using OpenWeather API, enabling users to get real-time weather info by city input.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Android Development – Google for Developers </li>
+        <li>Cloud Virtual Intership – AWS Academy</li>
+        <li>C++ Programming Fundamentals – NPTEL</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <ul>
+        <li>English (Fluent)</li>
+        <li>Marathi (Native)</li>
+        <li>Hindi (Fluent)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Interests</h2>
+      <ul>
+        <li>UI/UX Design, Problem Solving, Open Source Contribution, Blogging</li>
+      </ul>
+    </div>
+    <div class="section contact-section">
+        <h2>Contact</h2>
+        <ul class="contact-info">
+          <li><i class="fas fa-phone"></i> +91 9823468176</li>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:swatiipatil12@email.com">swatiipatil12@email.com</a></li>
+          <li><i class="fas fa-globe"></i>
+            <a href="https://linkedin.com/in/swatipatil" target="_blank">linkedin.com/in/swatipatil</a> |
+            <a href="https://github.com/swatipatil" target="_blank">github.com/swatipatil</a>
+          </li>
+          <li><i class="fas fa-map-marker-alt"></i> Kolhapur, Maharashtra</li>
+        </ul>
+      </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timetable - SEM II</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f7fb;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    h2, h3 {
+      text-align: center;
+      margin: 0;
+    }
+
+    h2 {
+      color: #375a7f;
+      font-size: 24px;
+    }
+
+    h3 {
+      color: #4a4a4a;
+      margin-bottom: 10px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 25px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid #e0e6ed;
+      text-align: center;
+      padding: 12px 10px;
+      font-size: 14px;
+      transition: background 0.3s ease;
+    }
+
+    th {
+      background-color: #6c7ae0;
+      color: white;
+      font-weight: bold;
+    }
+
+    td {
+      background-color: #fdfdfd;
+    }
+
+    td:hover {
+      background-color: #f0f4ff;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #f7f9fc;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    td.break {
+      background-color: #dfe7fd;
+      font-weight: bold;
+      color: #555;
+    }
+
+    td[colspan] {
+      background-color: #f0f0f0;
+      font-style: italic;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 13px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>D. Y. Patil College of Engineering & Technology, Kolhapur</h2>
+  <h3>Department of Computer Science & Engineering - SEM II</h3>
+  <p style="text-align: center;"><strong>Effective From:</strong> 13<sup>th</sup> Jan 2025</p>
+
+  <table>
+    <caption>Weekly Timetable</caption>
+    <thead>
+      <tr>
+        <th>Day / Time</th>
+        <th>9.00 - 10.00</th>
+        <th>10.00 - 11.00</th>
+        <th>11.15 - 12.15</th>
+        <th>12.15 - 1.15</th>
+        <th>2.00 - 3.00</th>
+        <th>3.00 - 4.00</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>DSL - SSKokate<br>Lab 8</td>
+        <td>AOOC - KBK<br>Lab 5</td>
+        <td class="break">BREAK</td>
+        <td>MDM-II - VVM</td>
+        <td>AT - KAB</td>
+        <td>ES - PA</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>DSL - SSKokate<br>Lab 8</td>
+        <td>AOOC - KBK<br>Lab 5</td>
+        <td class="break">BREAK</td>
+        <td>DSL - SSKokate</td>
+        <td>ES - PA</td>
+        <td>WD - SSKore</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>AOOC - KBK<br>Lab 5</td>
+        <td>TPMS - PRP<br>Lab 11</td>
+        <td class="break">BREAK</td>
+        <td>MDM-II - VVM</td>
+        <td colspan="2" class="break">Dept. Activity</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>AOOC - KBK<br>Lab 5</td>
+        <td>TPMS - PRP<br>Lab 11</td>
+        <td class="break">BREAK</td>
+        <td>DSL - SSKokate</td>
+        <td>AT - KAB</td>
+        <td>OEC-II</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>AOOC - KBK<br>Lab 5</td>
+        <td>TPMS - PRP<br>Lab 11</td>
+        <td class="break">BREAK</td>
+        <td>TTL - AAS</td>
+        <td>TPMS - PRP</td>
+        <td>OEC-II</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td colspan="2">LL (ASY, RSJ, M)</td>
+        <td colspan="4">LL (Self Study)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    Designed for B.Tech CSE - 2nd Year, 2025 | Subject codes: AT, DS, AOOC, DSL, WD, TPMS, TTL, OEC-II
+  </div>
+
+</body>
+</html>
